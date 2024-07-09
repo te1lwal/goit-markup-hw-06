@@ -4,19 +4,19 @@ body {
   background-color: #ffffff;
 }
 
-.Contacts {
+.contacts {
   font-style: normal;
 }
 
-.Contacts-link {
+.contacts-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.Contacts-link:hover,
-.Contacts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
