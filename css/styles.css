@@ -30,8 +30,12 @@ body {
   color: #4d5ae5;
 }
 
-.logo .accent {
+.logo .dark-accent {
   color: #2e2f42;
+}
+
+.logo .accent {
+  color: #f4f4fd;
 }
 
 .header-choose {
