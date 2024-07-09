@@ -4,8 +4,31 @@ body {
   background-color: #ffffff;
 }
 
-header {
+.header-studio {
+  color: #2e2f42;
 }
+
+.header-studio:hover,
+.header-studio:focus {
+  color: #404bbf;
+}
+
+address {
+  font-style: normal;
+}
+
+.Contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.Contacts:hover,
+.Contacts:focus {
+  color: #404bbf;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -37,26 +60,32 @@ header {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
-
   background: #4d5ae5;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
 
 a {
   text-decoration: none;
 }
 
-h1 {
+.title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
   background: #2e2f42;
 }
 
-h2 {
+.studio,
+.team,
+.portfolio {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -66,7 +95,9 @@ h2 {
   color: #2e2f42;
 }
 
-h3 {
+.studio-list,
+.portfolio-list,
+.team-list {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -75,13 +106,14 @@ h3 {
   color: #2e2f42;
 }
 
-.studio > p,
-.team > p,
-.portfolio > p {
+.studio-paragraph,
+.team-paragraph,
+.portfolio-paragraph {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+
   letter-spacing: 0.02em;
   color: #434455;
 }
