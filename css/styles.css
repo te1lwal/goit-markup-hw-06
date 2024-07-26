@@ -36,7 +36,6 @@ img {
 }
 
 .container {
-  display: flex;
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -45,8 +44,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
+  justify-content: space-between;
   gap: 0;
   border-bottom: 1px solid #e7e9fc;
 }
@@ -132,9 +130,10 @@ img {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -263,7 +262,7 @@ img {
 }
 
 .portfolio {
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .portfolio-ul {
