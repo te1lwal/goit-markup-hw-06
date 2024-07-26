@@ -41,12 +41,10 @@ img {
   margin: 0 auto;
 }
 
-.header-container {
+.header-container .container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 0;
-  border-bottom: 1px solid #e7e9fc;
+  align-items: center;
 }
 
 .navigation {
@@ -187,6 +185,10 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.studio-list-item {
+  margin-bottom: 8px;
+}
+
 .our-team {
   background: #f4f4fd;
   padding: 120px 0;
@@ -280,6 +282,10 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  margin-bottom: 8px;
+}
+
+.add .portfolio-list {
   margin-bottom: 8px;
 }
 
