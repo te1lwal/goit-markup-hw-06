@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+}
+
 .container {
-  max-width: 1158px;
+  display: flex;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -16,6 +21,12 @@
   justify-content: flex-start;
   flex-direction: row;
   gap: 0;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
 }
 
 body {
@@ -50,6 +61,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo .dark-accent {
