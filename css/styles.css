@@ -41,6 +41,10 @@ img {
   margin: 0 auto;
 }
 
+.header-container {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container .container:first-child {
   display: flex;
   justify-content: space-between;
@@ -264,7 +268,7 @@ img {
 }
 
 .portfolio {
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .portfolio-ul {
